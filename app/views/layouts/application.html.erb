@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<link ref=''>
+	<%= stylesheet_link_tag :all %>
+	<%= javascript_include_tag 'jquery', 'rails', 'galleria', 'application' %>
+	<%= csrf_meta_tag %>
+</head>
+<body>
+	<div id="wrapper">
+		<div class='glow'></div>
+		<div id="content">
+			<div class="header">
+				<h1 class='logo'></h1>
+			</div>
+			<div class="txt" id="main_content">
+				<%= yield %>
+			</div>
+		</div>
+		<div class='picture'>
+			<div class='mainPic'>
+				<div class='shadow'>
+				</div>
+			</div>
+		</div>
+		<div class='links'>
+			<%= link_to '', about_me_path, :class => 'abtMe', :remote => true %>
+			<%= link_to '', portfolio_path, :class => 'portfolio', :remote => true %>
+			<%= link_to '', contact_path, :class => 'contact', :remote => true %>
+		</div>    
+		<div id="footer">
+		</div>
+	</div>
+</body>
+</html>

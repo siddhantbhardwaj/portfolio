@@ -1,0 +1,94 @@
+body{
+  background-color:#000;
+}
+/* WRAPPER */
+#wrapper{
+  background:transparent url('../images/mainBg.png') 0 0 no-repeat;
+  min-height:600px;
+  width:990px;
+  margin:0 auto;
+  position:relative;
+  padding:40px 0 0 50px;
+}
+#wrapper .glow{
+  background:transparent url('../images/glow.png') 0 0 no-repeat;
+  width:301px;
+  height:435px;
+  position:absolute;
+  left:-163px;
+  top:196px;
+}
+
+/* CONTENT */
+#content{
+  float:left;
+  position:relative;
+  z-index:999;
+}
+#content .header h1.logo{
+  background:transparent url('../images/logo.png') 0 0 no-repeat;
+  height: 81px;
+  width: 284px;
+}
+#content .txt{
+  background:transparent url('../images/border.png') 0 0 no-repeat;
+  height: 476px;
+  width: 597px;
+  text-align:center;
+  position:relative;
+}
+#content .txt .image{
+  position:absolute;
+  padding:30px;
+  overflow:hidden;
+  height:376px;
+  width:500px;
+  top:10px;
+  left:5px;
+}
+
+/* PICTURE */
+#wrapper .picture{
+  margin-left:280px;
+  position:relative;
+  z-index:1;
+  margin-top:-40px;
+}
+#wrapper .picture .shadow{
+  background:transparent url('../images/shadow.png') 0 0 no-repeat;
+  width:283px;
+  height:636px;
+  position:absolute;
+  left: 0px;
+}
+#wrapper .picture .mainPic{
+  background:transparent url('../images/pic.png') 0 0 no-repeat;
+  width:659px;
+  height:636px;
+	position:absolute;
+	left:165px;
+}
+
+/* LINKS */
+.links{
+  position:absolute;
+  z-index:100;
+  right:0;
+  bottom:90px;
+}
+.links a{
+  text-indent:-9999px;
+  text-decoration:none;
+  display:block;
+  height:50px;
+  width:200px;
+}
+.links a.abtMe{
+  background:transparent url('../images/abtMe.png') right 0 no-repeat;
+}
+.links a.portfolio{
+  background:transparent url('../images/portfolio.png') right 0 no-repeat;
+}
+.links a.contact{
+  background:transparent url('../images/contact.png') right 0 no-repeat;
+}
